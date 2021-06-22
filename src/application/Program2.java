@@ -20,6 +20,11 @@ public class Program2 {
 		
 		sc.close();
 
+		System.out.println("==== TESTE 2: department insert ====");
+		Department newDep = new Department(null, "Moveis");
+		departmentDao.insert(newDep);
+		System.out.println("Inserted! New id = " + newDep.getId());
+		
 	}
 
 }
