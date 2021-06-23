@@ -30,6 +30,10 @@ public class Program2 {
 		dep.setId(6);
 		departmentDao.update(dep);
 		System.out.println("Update completed! ");
+		
+		System.out.println("==== TESTE 4: department delete ====");
+		departmentDao.deleteById(9);
+		System.out.println("Row deleted! ");
 	}
 
 }
